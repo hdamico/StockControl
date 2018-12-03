@@ -1,0 +1,61 @@
+﻿@model ControlStock.ViewModels.ProductoEdicionVM
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>ProductoVM</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Edicion.ProductoID" class="control-label"></label>
+                <input asp-for="Edicion.ProductoID" class="form-control" />
+                <span asp-validation-for="Edicion.ProductoID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edicion.Nombre" class="control-label"></label>
+                <input asp-for="Edicion.Nombre" class="form-control" />
+                <span asp-validation-for="Edicion.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edicion.MarcaID" class="control-label"></label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(x => x.Edicion.MarcaID, Model.Marcas, htmlAttributes: new { @id = "MarcaId", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Edicion.MarcaID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edicion.RubroID" class="control-label"></label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(x => x.Edicion.RubroID, Model.Rubros, htmlAttributes: new { @id = "RubroId", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Edicion.RubroID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Edicion.TipoProductoID" class="control-label"></label>
+                <div class="col-md-10">
+                    @Html.DropDownListFor(x => x.Edicion.TipoProductoID, Model.TiposProductos, htmlAttributes: new { @id = "TipoProductoId", @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Edicion.TipoProductoID, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

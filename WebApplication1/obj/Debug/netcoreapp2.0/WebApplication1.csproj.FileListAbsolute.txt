@@ -1,0 +1,12 @@
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.deps.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.runtimeconfig.dev.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.dll
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\bin\Debug\netcoreapp2.0\WebApplication1.pdb
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csprojAssemblyReference.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfoInputs.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.AssemblyInfo.cs
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.dll
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\WebApplication1\obj\Debug\netcoreapp2.0\WebApplication1.pdb

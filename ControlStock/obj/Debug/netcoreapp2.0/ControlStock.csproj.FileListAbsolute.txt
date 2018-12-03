@@ -1,0 +1,33 @@
+C:\ISTEA\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.deps.json
+C:\ISTEA\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.json
+C:\ISTEA\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.dev.json
+C:\ISTEA\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.dll
+C:\ISTEA\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.pdb
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csprojAssemblyReference.cache
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csproj.CoreCompileInputs.cache
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfoInputs.cache
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfo.cs
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.dll
+C:\ISTEA\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.pdb
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.deps.json
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.json
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.dev.json
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.dll
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.pdb
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csprojResolveAssemblyReference.cache
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csproj.CoreCompileInputs.cache
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfoInputs.cache
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfo.cs
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.dll
+E:\ISTEA\Nueva carpeta\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.pdb
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csprojAssemblyReference.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.csproj.CoreCompileInputs.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfoInputs.cache
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.AssemblyInfo.cs
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.dll
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\obj\Debug\netcoreapp2.0\ControlStock.pdb
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.deps.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.runtimeconfig.dev.json
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.dll
+C:\ISTEA\20182\ControlStock\ControlStock\ControlStock\ControlStock\bin\Debug\netcoreapp2.0\ControlStock.pdb

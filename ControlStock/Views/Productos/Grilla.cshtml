@@ -1,0 +1,114 @@
+﻿@model ControlStock.DAL.PagedList<ControlStock.ViewModels.ProductoVM>
+@{
+    ViewBag.Title = "Productos";
+}
+
+
+<h1>Productos</h1>
+<div class="well">
+    @using (Html.BeginForm("Grilla", null, FormMethod.Get))
+    {
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="input-group">
+
+                    <input type="text"
+                           name="filter"
+                           value="@ViewBag.filter"
+                           class="form-control"
+                           style="display: inline"
+                           placeholder="Buscar " />
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">Buscar</button>
+                    </span>
+
+                </div>
+            </div>
+            <div class="pull-right col-lg-1">
+                <a class="btn btn-success" data-modal="" href="/Productos/Create" id="btnCreate">
+                    <span class="glyphicon glyphicon-plus"></span>
+                </a>
+            </div>
+        </div>
+        <div style="margin-top:17px;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayName("ID")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Producto")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Marca")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Marca ID")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tipo Producto")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Tipo Producto ID")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Rubro")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Rubro ID")
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Content)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductoID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nombre)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Marca)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.MarcaID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TipoProducto)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TipoProductoID)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Rubro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.RubroID)
+                            </td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+
+        </div>
+
+    }
+</div>
+<div id='myModal' class='modal fade in'>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div id='myModalContent'></div>
+        </div>
+    </div>
+</div>
+
